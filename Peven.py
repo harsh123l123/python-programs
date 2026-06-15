@@ -1,5 +1,5 @@
 n=2
 
 while n<=100:
-    print(n)
+    print(n,end=" ")
     n=n+2
