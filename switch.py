@@ -1,4 +1,11 @@
+# Program to display day name based on day number
+# Uses match-case statement (Python 3.10+)
+# Day numbers: 1=Monday, 2=Tuesday, ..., 7=Sunday
+
+# Input day number from user
 n = int(input("enter a day:"))
+
+# Match day number to day name
 match n:
     case 1:
         print("Monday")
@@ -14,7 +21,7 @@ match n:
         print("Saturday")
     case 7:
         print("Sunday")
-    case _:
+    case _:  # Default case for invalid input
         print("Invalid day")
 
         
