@@ -5,5 +5,5 @@ for i in range(n+1):
   print(" ")  
 for i in range(n+1):
   for j in range(i):
-    print(" "*n,end=" ")
-  print("*")  
+    print("*",end=" ")
+  print(" "*n)  
