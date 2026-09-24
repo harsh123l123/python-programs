@@ -3,10 +3,10 @@
 # Day numbers: 1=Monday, 2=Tuesday, ..., 7=Sunday
 
 # Input day number from user
-n = int(input("enter a day:"))
+day = int(input("enter a day:"))
 
 # Match day number to day name
-match n:
+match day:
     case 1:
         print("Monday")
     case 2:
